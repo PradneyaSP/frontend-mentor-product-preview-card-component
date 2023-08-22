@@ -12,11 +12,18 @@ html {
   background-color: var(--clr-background);
 }
 
+main{
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   display: flex;
   height: 600px;
   justify-content: center;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 @media (max-width: 830px) {
@@ -25,15 +32,15 @@ html {
     align-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: 5rem 2rem;
+    /* margin: 5rem 2rem; */
   }
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
   .card {
     margin: 3rem 1rem;
   }
-}
+} */
 
 .text {
   background-color: white;
